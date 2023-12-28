@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorNavBarra">#F57C00</color>
+    <color name="colorSeleccionadoActivity">#FFA000</color>
+
+    <color name="darkerGray">#A9A9A9</color>
+    <color name="colorFondoOscuro">#333333</color> <!-- Oscuro -->
+
+<color name="colorPrimaryN">#FF9800</color> <!-- Anaranjado -->
+
+<color name="colorAccentN">#FF5722</color> <!-- Acento anaranjado -->
+<color name="colorFondoTransparenteN">#00000000</color> <!-- Transparente -->
+
+</resources>
+
+

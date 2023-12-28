@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registrar">
+
+    <TextView
+        android:id="@+id/bienvenidoRegistro"
+        android:layout_width="385dp"
+        android:layout_height="78dp"
+        android:text="@string/noCuenta"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.168"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.354"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/contra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.354"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nombreUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/contraRMeter"
+        android:layout_width="229dp"
+        android:layout_height="42dp"
+        android:hint="@string/password_Meter"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/usuarioRMeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_Meter"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/correoRMeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_Meter"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/nombreUsuarioMeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre_Meter"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.738"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/registrarseIr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

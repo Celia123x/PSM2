@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        android:icon="@android:drawable/ic_menu_compose"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:icon="@android:drawable/arrow_down_float"
+        android:icon="@android:drawable/ic_settings"
+        -->
+
+    <item
+        android:id="@+id/boton1"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/boton2"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title="Search"/>
+
+    <item
+        android:id="@+id/boton3"
+        android:icon="@android:drawable/ic_lock_idle_alarm"
+        android:title="Settings"/>
+
+    <item
+        android:id="@+id/boton4"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title="Profile"/>
+
+</menu>

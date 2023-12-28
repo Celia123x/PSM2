@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TachaTareas</string>
+    <!--CreacionTarea-->
+    <string name="asunto_New_Tarea">Asunto</string>
+    <string name="asunto_Meter_New_Tarea">Introduce el asunto de la tarea</string>
+    <string name="descripcion_New_Tarea">Descripción</string>
+    <string name="descripcion_Meter_New_Tarea">Contenido de la descripción de la tarea</string>
+    <string name="fecha_New_Tarea">Fecha</string>
+    <string name="fecha_Meter_New_Tarea">Fechaaa</string>
+    <string name="prioridad_New_Tarea">Prioridad</string>
+
+    <string-array name="prioridad_array">
+        <item>Alta</item>
+        <item>Media</item>
+        <item>Baja</item>
+    </string-array>
+
+    <string name="boton_New_Tarea">Crear Tarea</string>
+    <string name="error_toast_fecha">ERROR. Seleccione una fecha posterior a la actual</string>
+
+    <!--Bienvenida//InicarSesion//Registrarse-->
+    <string name="bienvenida">¡Bienvenid@ a la App: TachaTareas!</string>
+    <string name="login">Usuario:</string>
+    <string name="login_Meter">Introduzca su usuario</string>
+    <string name="password">Contraseña:</string>
+    <string name="password_Meter">Introduzca su constraseña</string>
+    <string name="acceso">ACCEDER</string>
+
+    <string name="noCuenta">¿No tiene cuenta? Regístrese:</string>
+    <string name="registro">REGISTRARSE</string>
+    <string name="email">Email:</string>
+    <string name="email_Meter">Introduzca un email</string>
+    <string name="nombre">Nombre:</string>
+    <string name="nombre_Meter">Introduzca su nombre</string>
+
+
+</resources>
