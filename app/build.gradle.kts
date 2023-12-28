@@ -39,14 +39,11 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("org.dizitart:nitrite:3.4.4")
+
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-
-    /*implementation (platform("org.dizitart:nitrite-bom:4.0.3")) // Reemplaza con la última versión estable
-    implementation ("org.dizitart:nitrite")
-    implementation ("org.dizitart:nitrite-mvstore-adapter")
-    */
 
 }
 

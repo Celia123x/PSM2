@@ -1,28 +1,33 @@
 package com.example.pr;
 
 //package org.dizitart.nitrite.demo.Model;
+import android.content.Context;
+
+import org.dizitart.no2.Nitrite;
+import org.dizitart.no2.NitriteCollection;
+import org.dizitart.no2.objects.ObjectRepository;
 
 public class DataBase {
 
-    //private static final String DATABASE_NAME = "tareas.db";
-    //private static Nitrite nitrite;
-    //private static NitriteManager;
-    //private static ObjectRepository<Tarea> tareaRepository;
+    private static final String DATABASE_NAME = "tareas.db";
+    private static Nitrite db;
 
-    /*public static void init(Context context) {
-        if (nitrite == null || tareaRepository == null) {
-            nitrite = Nitrite.builder()
+    private static ObjectRepository<Tarea> tareaRepository;
+    public static void init(Context context) {
+        if (db == null) {
+            db = Nitrite.builder()
                     .compressed()
                     .filePath(context.getDatabasePath(DATABASE_NAME).toString())
                     .openOrCreate();
-
-            tareaRepository = nitrite.getRepository(Tarea.class);
+        }
+        if (tareaRepository == null) {
+            tareaRepository = db.getRepository(Tarea.class);
         }
     }
 
     public static void close() {
-        if (nitrite != null) {
-            nitrite.close();
+        if (db != null) {
+            db.close();
         }
     }
 
@@ -37,5 +42,5 @@ public class DataBase {
             return tareaRepository.find().toList();
         }
         return null;
-    }*/
+    }
 }
